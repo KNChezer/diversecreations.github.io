@@ -4,6 +4,24 @@ body {
   font-family: 'Lexend Tera', sans-serif;
 }
 
+.jumbotron {
+  /* background image needs to be replaced with a higher quality image */
+  background: url(dCJumbo.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.jumbotron button{
+  color: #710da3;
+  border-color: #710da3;
+}
+
+.jumbotron button:hover{
+  color: white;
+  background-color: #710da3;
+  border-color: #710da3;
+}
+
 #mainNavbar .navbar-brand {
   color: #710da3;
   font-family: 'Dancing Script', cursive;
@@ -40,6 +58,30 @@ body {
 
 .blurb h1 {
   font-family: 'Dancing Script', cursive;
+}
+
+.social-media li {
+  font-size: 20px;
+}
+
+.author-img {
+  height: 150px;
+  width: 150px;
+  border-radius: 75px;
+}
+
+.post-title {
+  font-family: 'Dancing Script', cursive;
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.card {
+  border: 0;
+}
+
+.card-body {
+  background-color: #fff9cc;
 }
 
 @media (max-width: 1200px) {
