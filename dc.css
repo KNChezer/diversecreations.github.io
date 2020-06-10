@@ -23,19 +23,19 @@ body {
 }
 
 .btn:focus, .btn .focus {
-  box-shadow: 0 0 0 3px #b96abd
+  box-shadow: 0 0 0 3px #b96abd;
 }
 
 .btn.disabled, .btn:disabled {
   background-color: #710da3;
-  border-color: #b96abd
+  border-color: #b96abd;
 }
 
 .btn:active, .btn.active,
 .show > .btn-primary.dropdown-toggle {
   background-color: #710da3;
   background-image: none;
-  border-color: #b96abd
+  border-color: #b96abd;
 }
 
 
