@@ -1,0 +1,136 @@
+body {
+  background: #fff9cc;
+  color: #710da3;
+  font-family: 'Lexend Tera', sans-serif;
+}
+
+img {
+  width: 100%;
+  border-radius: 30px;
+}
+
+hr {
+  background: #d1943f;
+}
+
+.jumbotron {
+  /* background image needs to be replaced with a higher quality image */
+  background: url(dCJumbo.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.btn {
+  color: #710da3;
+  border-color: #710da3;
+}
+
+.btn:hover{
+  color: white;
+  background-color: #710da3;
+  border-color: #710da3;
+}
+
+.btn:focus, .btn .focus {
+  box-shadow: 0 0 0 3px #b96abd;
+}
+
+.btn.disabled, .btn:disabled {
+  background-color: #710da3;
+  border-color: #b96abd;
+}
+
+.btn:active, .btn.active,
+.show > .btn-primary.dropdown-toggle {
+  background-color: #710da3;
+  background-image: none;
+  border-color: #b96abd
+}
+
+
+#mainNavbar .navbar-brand {
+  color: #710da3;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 700;
+}
+
+#mainNavbar .nav-link {
+  color: #710da3;
+  font-family: 'Lexend Tera', sans-serif;
+}
+
+#mainNavbar .nav-link:hover {
+  color: white;
+}
+
+#mainNavbar .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(113, 13, 163)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+#mainNavbar .navbar-toggler {
+  border-color: #710da3;
+}
+
+.navbar.scrolled {
+  background: #d1943f;
+  transition: background 500ms;
+}
+
+
+#headLanding {
+  font-family: 'Dancing Script', cursive;
+  font-weight: 700;
+}
+
+.blurb h1 {
+  font-family: 'Dancing Script', cursive;
+}
+
+.social-media li {
+  font-size: 20px;
+}
+
+.author-img {
+  height: 150px;
+  width: 150px;
+  border-radius: 75px;
+}
+
+.post-title {
+  font-family: 'Dancing Script', cursive;
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.post-img {
+  border-radius: 30px;
+  height: 90%;
+  width: 65%;
+}
+
+.card {
+  border: 0;
+  background-color: #fff9cc;
+}
+
+.card-img-top{
+  border-radius: 30px;
+}
+
+@media (max-width: 1200px) {
+  #headLanding h1 {
+    font-size: 3rem;
+  }
+
+  #headLanding h3 {
+    font-size: 2rem;
+  }
+
+  .thumbnailG {
+    display: none;
+  }
+
+  .phoneCenter {
+    justify-content: center;
+  }
+}
